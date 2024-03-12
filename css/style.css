@@ -60,6 +60,10 @@
     height: 32px;
 }
 
+.dog{
+    color: white;
+}
+
 .btn-lg-square {
     width: 48px;
     height: 48px;
@@ -93,7 +97,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: goldenrod;
 }
 
 .navbar .dropdown-toggle::after {
