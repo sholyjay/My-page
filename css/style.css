@@ -153,6 +153,10 @@
     z-index: 1;
 }
 
+.dog1{
+    height: 750px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 15%;
@@ -163,8 +167,8 @@
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: goldenrod;
+    border: 15px solid goldenrod;
 }
 
 @media (max-width: 768px) {
@@ -223,7 +227,7 @@
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: var(--primary);
+    background: goldenrod;
 }
 
 .btn-play:before {
@@ -236,7 +240,7 @@
     display: block;
     width: 90px;
     height: 90px;
-    background: var(--primary);
+    background: goldenrod;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -251,7 +255,7 @@
     display: block;
     width: 90px;
     height: 90px;
-    background: var(--primary);
+    background: goldenrod;
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -328,7 +332,7 @@
 }
 
 .service-item:hover .service-text h5 {
-    color: var(--primary);
+    color: goldenrod;
 }
 
 .service-item .service-btn {
@@ -359,6 +363,9 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
+.dog2:hover{
+    color: goldenrod;
+}
 .project-item .project-overlay {
     position: absolute;
     width: 100%;
@@ -394,7 +401,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--secondary);
+    color: goldenrod;
     border-radius: 55px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .15);
     font-size: 25px;
@@ -403,8 +410,12 @@
 
 .project-carousel .owl-nav .owl-prev:hover,
 .project-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
+    background: goldenrod;
     color: #FFFFFF;
+}
+
+.dog3{
+    color: goldenrod;
 }
 
 @media (max-width: 768px) {
@@ -432,6 +443,10 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
+.dig{
+    height: 310px;
+    width: 260px;
+}
 .team-item .team-social {
     position: absolute;
     padding: 0;
@@ -455,14 +470,14 @@
 
 .team-item .team-social li .btn {
     background: #FFFFFF;
-    color: var(--primary);
+    color: goldenrod;
     border-radius: 40px;
     transition: .5s;
 }
 
 .team-item .team-social li .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: goldenrod;
 }
 
 .team-item .team-social li:nth-child(1) {
@@ -485,6 +500,11 @@
     transition-delay: .5s;
 }
 
+/*Quote*/
+#passwordStrength {
+    font-size: 14px;
+    margin-top: 5px;
+}
 
 /*** Testimonial ***/
 .testimonial-item {
@@ -499,7 +519,7 @@
 
 .owl-item.center .testimonial-item,
 .testimonial-item:hover {
-    background: var(--primary);
+    background: goldenrod;
 }
 
 .owl-item.center .testimonial-item *,
@@ -537,7 +557,7 @@
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
+    background: goldenrod;
     color: #FFFFFF;
 }
 
@@ -561,7 +581,7 @@
 
 /*** Footer ***/
 .footer {
-    color: #B0B9AE;
+    color: white;
 }
 
 .footer .btn.btn-link {
@@ -569,7 +589,7 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #B0B9AE;
+    color: white;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -594,9 +614,9 @@
 }
 
 .copyright {
-    background: #111111;
+    background: var(--secondary);
 }
 
 .copyright a:hover {
-    color: var(--primary) !important;
+    color: goldenrod !important;
 }
