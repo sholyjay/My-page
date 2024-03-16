@@ -686,7 +686,7 @@
     let formD = {
     name:'',
     email:'',
-    subject:'',
+    mobile:'',
     message:'',
 };
 
@@ -720,6 +720,16 @@ $(document).ready(function() {
         } else {
             formD.email = email;
             $('#email').removeClass('is-invalid');
+        }
+
+        //validate Number
+        var mobile = $('#mobile').val();
+        if (!mobile || mobile.trim() === '' || !isValidMobile(mobile)) {
+            $('#mobile').addClass('is-invalid');
+            valid = false;
+        } else {
+            formD.mobile = mobile;
+            $('mobile').removeClass('is-invalid');
         }
 
         // Validate message
