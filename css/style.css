@@ -215,6 +215,21 @@
     color: var(--light);
 }
 
+.page-pit1{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/uda15.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-pit1 .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-pit1 .breadcrumb-item,
+.page-pit1 .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
 
 /*** Features ***/
 .feature-row {
