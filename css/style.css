@@ -230,6 +230,36 @@
     color: var(--light);
 }
 
+.page-pit2{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/Coin.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-pit2 .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-pit2 .breadcrumb-item,
+.page-pit2 .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
+.page-pit3{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/group.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-pit3 .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-pit3 .breadcrumb-item,
+.page-pit3 .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
 
 /*** Features ***/
 .feature-row {
