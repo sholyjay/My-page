@@ -290,6 +290,21 @@
     color: var(--light);
 }
 
+.page-pit6{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-pit6 .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-pit6 .breadcrumb-item,
+.page-pit6 .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
 
 /*** Features ***/
 .feature-row {
