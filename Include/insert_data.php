@@ -15,14 +15,15 @@ if ($conn->connect_error) {
 
 // Data to insert
 $first_name = "Sola";
-$surname = "Olakanmi"
-$last_name = "Alade"
+$surname = "Olakanmi";
+$last_name = "Alade";
 $Email = "olakanmisola042@gmail.com";
-$Subject = "Sholyjay is my name"
+$Subject = "Sholyjay is my name";
 $Message = "Hello, world!";
+$Date = "Datetime";
 
 // SQL query to insert data into table
-$sql = "INSERT INTO contacts (first_name, surname, last_name, email, subject, message, datetime) VALUES ('$first_name', '$surname', '$last_name', '$email', '$subject', '$message', NOW())";
+$sql = "INSERT INTO contacts (first_name, surname, last_name, Email, Subject, Message, Date) VALUES ('$first_name', '$surname', '$last_name', '$Email', '$Subject', '$Message', NOW())";
 
 
 if ($conn->query($sql) === TRUE) {
